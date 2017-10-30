@@ -1,0 +1,118 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+.events{
+    width: 600px;
+    margin: 0 auto;
+}
+.events > span{
+    display: block;
+    text-align: center;
+    background: #00bcd6;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2), 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+.btn{
+    background: #e8e8e8;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin: 0 10px;
+    height: 44px;
+}
+.btn button{
+    border: 1px solid #e8e8e8;
+    border: none;
+    height: 44px;
+    width: 44px;
+    margin: 0px 5px 0px 0px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+#root > div > div > span.addEvent{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.btn > input{
+    float: right;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-top: 13px;
+    padding-bottom: 2px;
+    background: #e8e8e8;
+    border: 0;
+    border-bottom: solid 1px #e3e3e3;
+}
+table{
+    width:100%;
+}
+th{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+th,td{
+    border-bottom: 1px solid #c6cad3;
+    height: 30px;
+}
+td{
+    text-align: center;
+    height: 30px;
+}
+tbody > tr:nth-child(1){
+    color: #e1e1e1;
+}
+tbody > tr:nth-child(1){
+    cursor: default;
+}
+div.ReactModalPortal > div > div{
+    width: 350px;
+    height: 210px;
+    margin: 0 auto;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2), 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+body > div:nth-child(3) > div > div > h4{
+    font-weight: 400;
+    font-size: 1.1em;
+}
+body > div.ReactModalPortal > div > div input,select{
+    display: block;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #c6cad3;
+}
+body > div.ReactModalPortal > div > div > select > option:nth-child(1){
+    color: #999;
+}
+body > div.ReactModalPortal > div > div > button{
+    float: right;
+    margin-top: 0px;
+    margin-left: 10px;
+    border: 1px solid #c6cad3;
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+body > div:nth-child(4) > div > div > h4{
+    font-weight: 400;
+}
+body > div:nth-child(4) > div > div{
+    height: 130px;
+}
+body > div:nth-child(4) > div > div > button {
+    padding: 10px 30px;
+    border: 1px solid #c6cad3;
+    border-radius: 4px;
+
+ }
+ button:hover{
+     cursor: pointer;
+ }
+ button:disabled:hover{ 
+    background: #FAC5C5;
+    cursor: default 
+   }
